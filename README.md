@@ -1,44 +1,88 @@
+# Employee Management Frontend 🌟
 
-# Employee Management Frontend 🎯
+Welcome to the **Employee Management System Frontend**, your comprehensive platform for managing employee information, tracking attendance, handling leaves, and monitoring projects with ease. Built with modern tools and designed for efficiency, this frontend application connects seamlessly with the backend to deliver an exceptional user experience.
 
-This is the frontend application for the Employee Management System, built to manage employee profiles, attendance, leaves, and projects. The application interacts with the backend API to provide a seamless user experience.
+---
 
-## 🚀 Features
+## ✨ Key Features
 
-- **Employee Dashboard** 📊: View employee details, attendance, leave records, and projects at a glance.
-- **Profile Management** 🖼️: Update your profile picture and personal details.
-- **Attendance Management** ⏱️: Record and view attendance for each day.
-- **Leave Records** 🏝️: Apply for leave, view leave history, and track approvals.
-- **Employee Directory** 👥: Browse the list of all employees in the system.
-- **Project Management** 📁: Track and manage ongoing projects.
-- **User Authentication** 🔐: Secure login with JWT-based authentication.
-- **Responsive Design** 📱: Optimized for all devices, including desktops and mobiles.
+### 🚀 Employee-Centric Dashboard
+- Access detailed employee information, attendance logs, leave statuses, and project assignments in one place.
 
-## 🛠️ Tech Stack
+### 🖼️ Personalized Profiles
+- Update profile pictures and personal details effortlessly.
 
-- **React** ⚛️: The entire frontend is built with React, leveraging hooks for state management.
-- **Redux** 🗂️: Used for managing global state (authentication, employee data).
-- **Axios** 📡: For making HTTP requests to the backend API.
-- **React Router** 🛣️: To handle navigation and routing between different pages.
-- **Bootstrap** 💄: Used for styling and responsive layout.
-- **Netlify** 🌐: Deployed on Netlify for a fast and reliable hosting experience.
+### ⏱️ Smart Attendance Tracker
+- Record daily attendance and view logs in a simple and intuitive interface.
 
+### 🏝️ Leave Management Made Easy
+- Apply for leave, monitor approval statuses, and access leave history.
 
-## 🔧 API Endpoints
+### 👥 Explore the Directory
+- Browse and search for employees across the organization.
 
-This project interacts with a backend server deployed on Render. Below are the Major - key endpoints used:
+### 📁 Efficient Project Management
+- Track progress and view details for ongoing projects.
 
-- **Authentication**:
-  - POST /api/auth/login: To log in and receive a JWT token.
-- **Employee Management**:
-  - GET /api/user/getemployee: Fetch employee data.
-  - GET /api/user/getprofilepicture: Fetch the profile picture of the logged-in user.
-- **Attendance Management**:
-  - POST /api/user/attendance/attendancerecord: Get attendance records.
-  - POST /api/user/attendance/toggleswipestatus: marks attendance for the user (toggles active state of the user in the site)
-- **Leave Management**:
-  - GET /api/user/leave: Fetch leave records for the logged-in user.
-  - POST /api/user/applyleave: Apply leave for the user with provided details
+### 🔐 Secure Authentication
+- Protect user data with JWT-based login authentication.
 
+### 📱 Responsive Design
+- Enjoy a seamless experience across all devices – desktop, tablet, or mobile.
 
-You can visit the deployed website [here](https://employee-management-dashboard-dev-it.netlify.app)
+---
+
+## 💡 Tech Highlights
+
+- **React**: The core framework for building dynamic UI components.
+- **Redux**: Manage state globally for authentication, employee data, and more.
+- **Axios**: Efficient API interaction for smooth communication with the backend.
+- **React Router**: Simplified navigation between multiple views.
+- **Bootstrap**: Elegant styling and responsive layouts.
+- **Netlify**: Deployed for fast, reliable hosting.
+
+---
+
+## 🔗 API Integration
+
+The frontend interacts with a powerful backend API deployed on Render. Below are some of the key endpoints it uses:
+
+### **Authentication**
+- **POST** `/api/auth/login`: Authenticate users and receive JWT tokens.
+
+### **Employee Management**
+- **GET** `/api/user/getemployee`: Retrieve employee data.
+- **GET** `/api/user/getprofilepicture`: Fetch profile pictures.
+
+### **Attendance**
+- **POST** `/api/user/attendance/attendancerecord`: Get attendance logs.
+- **POST** `/api/user/attendance/toggleswipestatus`: Mark or update attendance status.
+
+### **Leave Management**
+- **GET** `/api/user/leave`: View leave history.
+- **POST** `/api/user/applyleave`: Submit leave requests.
+
+---
+
+## 🌍 Deployed Application
+
+**Frontend URL**: [Employee Management Frontend](https://ems-vj08-frontend-task.netlify.app)
+
+Explore the live application and experience how the Employee Management System works.
+
+---
+
+## 📢 Getting Started
+
+To get the project running locally, follow these steps:
+
+### Prerequisites:
+- Node.js installed.
+- Backend API running and accessible.
+
+### Setup:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/employee-management-frontend.git
+   cd employee-management-frontend
