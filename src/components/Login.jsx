@@ -192,7 +192,7 @@ const Login = () => {
               type="submit"
               className="col-4 align-self-center btn btn-custom my-2"
             >
-              {loading ? <ButtonLoader /> : <p className="fs-5 m-0">Login</p>}
+              {loading ? <ButtonLoader /> : <p className="fs-5 m-0">𝕃𝕆𝔾𝕀ℕ</p>}
             </button>
             <button
               type="button"
@@ -202,7 +202,7 @@ const Login = () => {
               {loading ? (
                 <ButtonLoader />
               ) : (
-                <p className="fs-5 m-0">Demo</p>
+                <p className="fs-5 m-0">𝕋ℝ𝕐</p>
               )}
             </button>
           </div>

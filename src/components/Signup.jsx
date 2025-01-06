@@ -147,13 +147,13 @@ const Signup = () => {
           </div>
           <div className="col-12 my-4 fs-5 d-flex justify-content-center align-items-baseline">
             <Field type="checkbox" className="me-2" name="checkbox"></Field>
-            <div>Register me as Admin</div>
+            <div>𝕽𝖊𝖌𝖎𝖘𝖙𝖊𝖗 𝖒𝖊 𝖆𝖘 𝖆𝖉𝖒𝖎𝖓</div>
           </div>
           <button
             type="submit"
             className="col-6 align-self-center btn btn-custom my-2 fs-5"
           >
-            Sign Up
+            𝕾𝖎𝖌𝖓 𝖀𝖕
           </button>
         </Form>
       </Formik>

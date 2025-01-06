@@ -44,7 +44,7 @@ const Auth = () => {
                 }`}
                 onClick={() => toggleAction("SignUp")}
               >
-                Sign Up
+                𝕾𝖎𝖌𝖓 𝖀𝖕
               </div>
               <div
                 className={`col-6 btn fs-4 border-bottom-primary text-center ${
@@ -52,7 +52,7 @@ const Auth = () => {
                 }`}
                 onClick={() => toggleAction("Login")}
               >
-                Login
+                𝕷𝖔𝖌𝖎𝖓
               </div>
             </div>
             <div className={`col-12 my-3 Auth ${animate}`}>
