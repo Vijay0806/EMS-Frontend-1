@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import markAttendance from "../assets/markAttendance.jpg";
+import markAttendance from "../assets/markAttendance.png";
 import "./Styles/Attendance.css";
 import { toast } from "react-toastify";
 import axios from "axios";
@@ -39,8 +39,8 @@ const MarkAttendanceCard = () => {
     // Determine the API endpoint and success message based on the swipe status
     const endpoint = `${axiosBaseURL}/user/attendance/swipetoggle`;
     const successMessage = swipedIn
-      ? "You have swiped out successfully"
-      : "You have swiped in successfully";
+      ? "You are now checked In."
+      : "You are now checked Out.";
 
     try {
       // Perform the API call to toggle swipe status
@@ -102,7 +102,7 @@ const MarkAttendanceCard = () => {
       <div className="d-flex flex-column align-items-center">
         <img src={markAttendance} alt="mark attendance" className="img-fluid" />
         <div className="btn btn-custom fs-5 col-6" onClick={handleSwipeToggle}>
-          {swipedIn ? "Swipe Out" : "Swipe In"}
+          {swipedIn ? "Check-Out" : "Check-In"}
         </div>
         <div className="col-10">
           <div
@@ -121,7 +121,7 @@ const MarkAttendanceCard = () => {
             </div>
           </div>
           <p className="my-2 text-muted lead">
-            Total working hours of today :{" "}
+          Today's working hours:{" "}
             <span className="text-custom">
               {(progressPercentage * 0.08).toFixed(2)} Hrs
             </span>

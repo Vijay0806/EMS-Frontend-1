@@ -1,9 +1,9 @@
 import { useSelector } from "react-redux";
 import React, { useEffect, useState } from "react";
 import "./Styles/Navbar.css";
-import profileIcon from "../assets/profile-image.png";
+import profileIcon from "../assets/profile-imagee.png";
 import profile24 from "../assets/profileIcon-24.png";
-import logoutIcon from "../assets/logout.png";
+import logoutIcon from "../assets/log-out.png";
 import dashboardIcon from "../assets/dashboard.png";
 import attendanceIcon from "../assets/attendance.png";
 import leaveRecordIcon from "../assets/leaveRecord.png";
@@ -133,12 +133,12 @@ const Navbar = () => {
                 className="nav-profile-picture"
               />
             </div>
-            <div className="d-flex flex-column">
+            <div className="d-flex flex-column nav-font">
               <span>{employee.name}</span>
               <span className="fs-6 muted">{employee.designation}</span>
             </div>
           </Link>
-          <div className="btn me-3 fs-5" onClick={handleLogout}>
+          <div className="btn me-3 fs-5 logout-Icon nav-font" onClick={handleLogout}>
             <img src={logoutIcon} alt="" /> Logout
           </div>
         </div>

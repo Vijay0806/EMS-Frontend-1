@@ -1,5 +1,5 @@
 .profile-icon {
-    border: 3px solid rgba(68, 67, 67, 0.4);
+    border: 3px solid rgba(12, 176, 218, 0.767);
     border-radius: 50%;
 }
 
@@ -10,4 +10,21 @@
     max-width:50px;
     border-radius:100%;
     object-fit: cover;
+}
+
+.logout-Icon {
+    color: black; /* Default color */
+    /* font-size: 24px; Optional size styling */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+  
+  .logout-Icon:hover {
+    color: red; /* Color on hover */
+    font-weight: 500;
+    background-color: blueviolet;
+  }
+  
+.nav-font{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
 }

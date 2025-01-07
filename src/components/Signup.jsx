@@ -1,9 +1,9 @@
 import * as Yup from "yup";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import React, { useState } from "react";
-import emailicon from "../assets/email.png";
-import passwordicon from "../assets/password.png";
-import usernameicon from "../assets/username.png";
+import emailicon from "../assets/email-.png";
+import passwordicon from "../assets/passwordd.png";
+import usernameicon from "../assets/usernamee.png";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
 

@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "./Styles/Attendance.css"
-import noRecordsIcon from "../assets/noRecords.jpg";
+import noRecordsIcon from "../assets/noRecordss.jpg";
 import {
   BarChart,
   Bar,
@@ -75,7 +75,7 @@ const AttendanceChart = ({ height }) => {
           alt="No records Available"
           className="no-records-icon"
         />
-        <p className="lead">No Attendance Records available for the given period or employee</p>
+        <p className="lead">No data for this period or employee.</p>
       </div>
     </>
   ) : (

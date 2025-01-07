@@ -11,3 +11,14 @@
   z-index: 9999;
 }
 
+.custom-font{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: brown !important;
+}
+
+.custom-update{
+  font-family: cursive;
+  color: blue;
+  font-size: 14px;  
+}

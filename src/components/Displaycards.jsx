@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import '../components/Styles/Dashboard.css';
-import userdisplay from '../assets/user-display-grad.png';
+import userdisplay from '../assets/user-display--grad.png';
 import projectsdisplay from '../assets/projects-display-grad.png';
 import pendingdisplay from '../assets/pending-display-grad.png';
 import leavedisplay from '../assets/leave-display-grad.png';
@@ -40,7 +40,7 @@ const Displaycards = () => {
           <div className="card h-100 py-4 display-card-border display-card-green">
             <div className="d-flex justify-content-between align-items-center">
               <div className="card-body d-flex flex-column justify-content-between align-items-center">
-                <h4 className="card-title text-dark">PROJECTS</h4>
+                <h4 className="card-title text-dark custom-font">PROJECTS</h4>
                 <p className="card-text stat-text">{stats.projects}</p>
               </div>
               <div className="col-4">
@@ -53,7 +53,7 @@ const Displaycards = () => {
           <div className="card h-100 py-4 display-card-border display-card-red">
             <div className="d-flex justify-content-between align-items-center">
               <div className="card-body d-flex flex-column justify-content-between align-items-center">
-                <h4 className="card-title text-dark">PENDING</h4>
+                <h4 className="card-title text-dark custom-font">PENDING</h4>
                 <p className="card-text stat-text">{stats.pending}</p>
               </div>
               <div className="col-4">
@@ -66,7 +66,7 @@ const Displaycards = () => {
           <div className="card h-100 py-4 display-card-border display-card-yellow">
             <div className="d-flex justify-content-between align-items-center">
               <div className="card-body d-flex flex-column justify-content-between align-items-center">
-                <h4 className="card-title text-dark">DAYS OFF</h4>
+                <h4 className="card-title text-dark custom-font">DAYS OFF</h4>
                 <p className="card-text stat-text">{stats.daysOff}</p>
               </div>
               <div className="col-4">
@@ -79,9 +79,9 @@ const Displaycards = () => {
           <div className="card h-100 py-4 display-card-border display-card-blue">
             <div className="d-flex justify-content-between align-items-center">
               <div className="card-body d-flex flex-column justify-content-between align-items-center">
-                <h4 className="card-title text-dark">PROFILE</h4>
+                <h4 className="card-title text-dark custom-font">PROFILE</h4>
                 <h6>
-                  <Link to="/myprofile">Update Profile</Link>
+                  <Link to="/myprofile" className='custom-update'>Update My Info</Link>
                 </h6>
               </div>
               <div className="col-4">
