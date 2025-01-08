@@ -22,3 +22,27 @@
   color: blue;
   font-size: 14px;  
 }
+
+.form-font{
+  font-family: cursive;
+}
+.form-options{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.nav-btn{
+  font-family:cursive;
+}
+
+.employee-font{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.employee-row{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-fontt{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

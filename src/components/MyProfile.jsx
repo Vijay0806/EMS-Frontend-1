@@ -240,7 +240,7 @@ const EmployeeForm = () => {
           />
 
           <button type="submit" className="col btn btn-custom my-3 ">
-            update
+          Renew
           </button>
         </form>
 
@@ -386,15 +386,15 @@ const EmployeeForm = () => {
         ) : (
           <div className="col-12 col-md-10 d-flex flex-column my-5 my-sm-4">
             <div className="d-flex align-items-center justify-content-between mb-4">
-              <div className="fs-1">Employee Details</div>
+              <div className="fs-1 employee-font">Employee Info</div>
               <div
                 className="btn btn-custom col-4 fs-5"
                 onClick={() => setEditing(true)}
               >
-                edit
+                Modify
               </div>
             </div>
-            <div className="row d-flex flex-column flex-md-row">
+            <div className="row d-flex flex-column flex-md-row employee-row">
               <div className="col-12 col-sm-6 form-group d-flex">
                 <label className="muted col-2">
                   <img src={userNameIcon} alt="username input" />

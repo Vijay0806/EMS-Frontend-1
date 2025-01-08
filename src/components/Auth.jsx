@@ -30,12 +30,14 @@ const Auth = () => {
 
   return (
     <>
+    
       <div
         className={`Auth-blob-bg col-12 d-flex justify-content center align-itemns-center ${
           action === "Login" ? "flex-row-reverse" : ""
         }`}
       >
         <div className="container auth-page col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+        <h1 className="employee-head">Employee Management System</h1>
           <div className="col-12 border border-dark p-3 rounded">
             <div className="col-12 d-flex">
               <div

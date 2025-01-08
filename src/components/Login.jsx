@@ -74,8 +74,8 @@ const Login = () => {
 
   const handleGuestLogin = async () => {
     const guestCredentials = {
-      email: "mukeshkj2912@gmail.com",
-      password: "Mukesh@123",
+      email: "viji@gmail.com",
+      password: "viji@123",
     };
     await handleLogin(guestCredentials);
   };
@@ -100,7 +100,7 @@ const Login = () => {
         localStorage.setItem("loggedIn", true);
         dispatch(setToken(res.data.token));
         localStorage.setItem("authToken", res.data.token);
-        toast.success("Login successful", {
+        toast.success("You’re Logged In", {
           position: "top-right",
           autoClose: 5000,
           hideProgressBar: false,
@@ -151,7 +151,7 @@ const Login = () => {
         onSubmit={handleLogin}
       >
         <Form className="container d-flex flex-column justify-content-center align-items-center form">
-          <div className="col-12 my-4 fs-5 d-flex flex-column justify-content-center align-items-center">
+          <div className="col-12 my-4 fs-5 d-flex flex-column justify-content-center align-items-center form-fontt">
             <div className="d-flex col-12">
               <label htmlFor="email" className="col-1">
                 <img src={emailicon} alt="emailicon" className="icon" />
@@ -169,7 +169,7 @@ const Login = () => {
               className="text-danger"
             ></ErrorMessage>
           </div>
-          <div className="col-12 my-4 fs-5 d-flex flex-column justify-content-center align-items-center">
+          <div className="col-12 my-4 fs-5 d-flex flex-column justify-content-center align-items-center form-fontt">
             <div className="d-flex col-12">
               <label htmlFor="email" className="col-1">
                 <img src={passwordicon} alt="emailicon" className="icon" />
@@ -194,18 +194,7 @@ const Login = () => {
             >
               {loading ? <ButtonLoader /> : <p className="fs-5 m-0">𝕃𝕆𝔾𝕀ℕ</p>}
             </button>
-            <button
-              type="button"
-              className="col-4 align-self-center btn btn-custom my-2"
-              onClick={handleGuestLogin}
-            >
-              {loading ? (
-                <ButtonLoader />
-              ) : (
-                <p className="fs-5 m-0">𝕋ℝ𝕐</p>
-              )}
-            </button>
-          </div>
+            </div>
         </Form>
       </Formik>
     </>

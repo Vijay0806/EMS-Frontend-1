@@ -75,21 +75,21 @@ const Employees = () => {
           <div className="col-md-6">
             <input
               type="text"
-              className="form-control"
-              placeholder="Search by employee name..."
+              className="form-control form-font"
+              placeholder="Search for an employee..."
               value={searchTerm}
               onChange={handleSearchChange}
             />
           </div>
           <div className="col-md-6">
             <select
-              className="form-select"
+              className="form-select form-font"
               value={roleFilter}
               onChange={handleRoleFilterChange}
             >
-              <option value="all">All Roles</option>
-              <option value="admin">Admin</option>
-              <option value="employee">Employee</option>
+              <option value="all" className="form-font">All Roles</option>
+              <option value="admin" className="form-font">Admin</option>
+              <option value="employee" className="form-font">Employee</option>
             </select>
           </div>
         </div>
@@ -107,7 +107,7 @@ const Employees = () => {
                   aria-controls={`collapse${employee.employeeId}`}
                 >
                   <div className="d-flex flex-column justify-content-center align-items-start">
-                    <div className="display-6">{employee.name}</div>
+                    <div className="display-6 form-options">{employee.name}</div>
                     <p className="my-0 text-muted">{employee.designation}</p>
                   </div>
                 </button>

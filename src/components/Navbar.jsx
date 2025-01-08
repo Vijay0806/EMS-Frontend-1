@@ -2,13 +2,13 @@ import { useSelector } from "react-redux";
 import React, { useEffect, useState } from "react";
 import "./Styles/Navbar.css";
 import profileIcon from "../assets/profile-imagee.png";
-import profile24 from "../assets/profileIcon-24.png";
+import profile24 from "../assets/myprofilee.png";
 import logoutIcon from "../assets/log-out.png";
 import dashboardIcon from "../assets/dashboard.png";
 import attendanceIcon from "../assets/attendance.png";
-import leaveRecordIcon from "../assets/leaveRecord.png";
+import leaveRecordIcon from "../assets/leaverecordss.png";
 import leaveIcon from "../assets/leave.png";
-import employeesIcon from "../assets/employees.png";
+import employeesIcon from "../assets/employeess.png";
 import projectsIcon from "../assets/projects.png";
 import hamIcon from "../assets/hamburger-icon.png";
 import { useNavigate, Link } from "react-router-dom";
@@ -108,7 +108,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar bg-body-tertiary sticky-top">
-      <div className="container">
+      <div className="container nav-btn">
         <button
           className="btn"
           type="button"

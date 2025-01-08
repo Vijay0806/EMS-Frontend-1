@@ -91,7 +91,7 @@ const Signup = () => {
         onSubmit={handleSignup}
       >
         <Form className="container d-flex flex-column justify-content-center align-items-center form">
-          <div className="col-12 my-4 fs-5 d-flex flex-column justify-content-center align-items-center">
+          <div className="col-12 my-4 fs-5 d-flex flex-column justify-content-center align-items-center form-fontt">
             <div className="d-flex col-12">
               <label htmlFor="username" className="col-1">
                 <img src={usernameicon} alt="usernameicon" className="icon" />
@@ -109,8 +109,8 @@ const Signup = () => {
               className="text-danger"
             ></ErrorMessage>
           </div>
-          <div className="col-12 my-4 fs-5 d-flex flex-column justify-content-center align-items-center">
-            <div className="d-flex col-12">
+          <div className="col-12 my-4 fs-5 d-flex flex-column justify-content-center align-items-center form-fontt">
+            <div className="d-flex col-12 ">
               <label htmlFor="email" className="col-1">
                 <img src={emailicon} alt="emailicon" className="icon" />
               </label>
@@ -127,8 +127,8 @@ const Signup = () => {
               className="text-danger"
             ></ErrorMessage>
           </div>
-          <div className="col-12 my-4 fs-5 d-flex flex-column justify-content-center align-items-center">
-            <div className="d-flex col-12">
+          <div className="col-12 my-4 fs-5 d-flex flex-column justify-content-center align-items-center form-fontt">
+            <div className="d-flex col-12 ">
               <label htmlFor="email" className="col-1">
                 <img src={passwordicon} alt="emailicon" className="icon" />
               </label>

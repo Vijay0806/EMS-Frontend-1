@@ -65,3 +65,17 @@
 .auth-page {
     min-height: 100vh;
 }
+
+.employee-head{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem; 
+  font-weight: bold;
+  text-align: center;
+  color: #343a40;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+  letter-spacing: 1.5px; 
+  border-bottom: 2px solid #007bff; /* Optional underline with a primary color */
+  padding-bottom: 10px; 
+}
